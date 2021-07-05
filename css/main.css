@@ -16,3 +16,15 @@ h2 {
 p {
     font-family: 'Archivo', sans-serif;
 }
+
+@media (min-width: 768px) {
+    body {
+        font-size: larger;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: x-large;
+    }
+}
